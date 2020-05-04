@@ -14,5 +14,5 @@ jobs:
         uses: maxam2017/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 2554394cf484f132839861d9690f8d9c
+          GIST_ID: ${{ secrets.GIST_ID }}
           LOCALE: ko-KR
